@@ -1,0 +1,102 @@
+#title {
+  text-align: center;
+  color: rgb(11, 11, 109);
+  font-weight: bold;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-buttons button {
+  padding: 7px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.form-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+#employeelist {
+  text-align: center;
+  color: rgb(8, 92, 33);
+  font-weight: bold;
+}
+
+#employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+#employee-table th,
+#employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  width: 20%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#employee-table button {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 4px;
+  width: 50%;
+}
+
+#employee-table th {
+  background-color: #f2f2f2;
+}
+
+.toaster {
+  width: 100%;
+  visibility: hidden;
+  background-color: #42cf00;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  font-size: 17px;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.toaster.show {
+  visibility: visible;
+  opacity: 1;
+}
